@@ -1,0 +1,20 @@
+{
+  "name": "thumbnail-generator",
+  "version": "1.0.0",
+  "description": "Generate a pdf image based on a blog post title and description",
+  "main": "lib/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "author": "Kyle Rummens",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "canvas": "^2.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
